@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eisenhower Matrix</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="matrix-container">
+        <div class="axis-label y-axis important-label">Important</div>
+        <div class="axis-label y-axis not-important-label">Not Important</div>
+        <div class="axis-label x-axis urgent-label">Urgent</div>
+        <div class="axis-label x-axis not-urgent-label">Not Urgent</div>
+        <div class="container">
+            <!-- Quadrant 1: Do (Urgent & Important) -->
+            <div class="quadrant urgent-important" id="q1">
+                <button class="quadrant-btn">Do</button>
+                <div class="content">
+                    <h2>Urgent & Important</h2>
+                    <ul>
+                        <li>Time sense</li>
+                        <li>Project deadline</li>
+                        <li>Time with parents</li>
+                        <li>Processing problem</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Quadrant 2: Schedule (Not Important & Urgent) -->
+            <div class="quadrant urgent-not-important" id="q2">
+                <button class="quadrant-btn">Schedule</button>
+                <div class="content">
+                    <h2>Urgent & Not Important</h2>
+                    <ul>
+                        <li>Interruptions</li>
+                        <li>Some callers</li>
+                        <li>Helping some people</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Quadrant 3: Delegate (Important & Not Urgent) -->
+            <div class="quadrant not-urgent-important" id="q3">
+                <button class="quadrant-btn">Delegate</button>
+                <div class="content">
+                    <h2>Important & Not Urgent</h2>
+                    <ul>
+                        <li>Relationship building</li>
+                        <li>Preparation, planning, prevention</li>
+                        <li>Time with friends</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Quadrant 4: Delete (Not Important & Not Urgent) -->
+            <div class="quadrant not-urgent-not-important" id="q4">
+                <button class="quadrant-btn">Delete</button>
+                <div class="content">
+                    <h2>Not Urgent & Not Important</h2>
+                    <ul>
+                        <li>Instagram/reels/shows</li>
+                        <li>Escape activities</li>
+                        <li>Time wasters</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
